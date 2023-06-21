@@ -1,0 +1,69 @@
+.win-lose-container {
+  background-color: #ffffff33;
+  border-radius: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.win-or-lose-image {
+  height: 230px;
+}
+.text {
+  font-size: 40px;
+  margin: 0;
+  color: #ffffff;
+}
+.score-text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+.count {
+  text-align: center;
+  font-size: 24px;
+  color: #6a59ff;
+  font-weight: bold;
+  margin: 0;
+}
+.play-again-button {
+  width: 120px;
+  height: 45px;
+  background-color: #ffce27;
+  border-radius: 20px;
+  font-family: 'roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .win-lose-container {
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    flex-grow: 0;
+  }
+  .win-or-lose-image {
+    order: 0;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image-container {
+    order: 1;
+    margin-left: 15px;
+  }
+}
